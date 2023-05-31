@@ -26,7 +26,7 @@ Connect-ExchangeOnline -Credential $o365cred
 
 
 $HTML = '<html><head><meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-         <!-- Insert your HTML-based signature here. User single qoutes to escape PowerShell variables, eg: -->
+         <!-- Insert your HTML-based signature here. Use single quotes to escape PowerShell variables, eg: -->
          <p class="JobTitle">'$JobTitle'</p>
          
          <!-- Displays UPN as clickable link with mailto URI -->
