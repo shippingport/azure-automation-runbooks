@@ -1,3 +1,11 @@
+<#
+    .DESCRIPTION
+        This runbook does not exit until a valid mailbox has been found for input $UPN. It polls for a valid mailbox GUID every 5 seconds.
+
+    .NOTES
+        LASTEDIT: 20230601
+#>
+
 Param (
 	[Parameter(Mandatory=$true)]
 	[string] $UPN
